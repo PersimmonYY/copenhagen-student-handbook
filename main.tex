@@ -1,0 +1,128 @@
+% ============================================================
+% main.tex — 哥本哈根留学生存手册 2025
+% 仅包含文章格式、宏包与章节引用，具体内容拆分到 chapters/*.tex
+% ============================================================
+
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+
+% ------------------------------------------------------------
+% 宏包与版式
+% ------------------------------------------------------------
+\usepackage{geometry}
+  \geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+\usepackage{hyperref}
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+  }
+
+\usepackage{graphicx}
+  \graphicspath{{figures/}}
+
+\usepackage{booktabs,longtable,tabularx}
+\usepackage{float}          % [H] 选项
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{adjustbox}
+\usepackage{caption}
+\usepackage[normalem]{ulem} % 提供 \uline
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[table]{xcolor}
+\usepackage{cleveref}
+\usepackage{fontspec}
+\usepackage{pifont}         % ✓ ✗ ⚠
+
+% ------------------------------------------------------------
+% 自定义符号
+% ------------------------------------------------------------
+\newcommand{\cmark}{\textcolor{green!60!black}{\ding{52}}}   % ✓
+\newcommand{\xmark}{\textcolor{red!70!black}{\ding{55}}}     % ✗
+\newcommand{\warn}{\textcolor{orange}{\ding{115}}}           % ⚠
+
+% ------------------------------------------------------------
+% tcolorbox: 灰条提示框
+% ------------------------------------------------------------
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable,skins}
+
+% 灰条提示框：左侧 3pt 灰线，可跨页
+\newtcolorbox{grayleftbox}{
+  enhanced,
+  breakable,
+  colback=white,
+  boxrule=0pt,
+  borderline west={3pt}{0pt}{gray!45},
+  left=6pt, right=6pt, top=4pt, bottom=4pt
+}
+
+% ------------------------------------------------------------
+% 页眉页脚
+% ------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{哥本哈根留学生存手册}
+\fancyhead[R]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+% ------------------------------------------------------------
+% 章节标题格式
+% ------------------------------------------------------------
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% ------------------------------------------------------------
+% 强制所有 \section{} 自动换页
+% ------------------------------------------------------------
+\let\oldsection\section
+\renewcommand{\section}{\clearpage\oldsection}
+
+% ------------------------------------------------------------
+% 文档元信息
+% ------------------------------------------------------------
+\title{哥本哈根留学生存手册\\\vspace{0.5em}\Large 2025-2026学年版}
+\author{
+  \\[4em] 哥本哈根中国学生学者联合会 编辑组\\
+  %\scriptsize 小编们：斯特兰奇、哥哈老油条
+  % 火柿子研究所所长王卫红、出门钓鱼让二儿他妈烙了张糖饼但一条鱼没钓上于是去菜市场买了两条说是自己钓上来的二儿他爸、红豆生产达人倪斯幂会马赛回旋
+  %\normal
+  \\[1em]
+  \includegraphics[width=0.18\textwidth]{figures/哥哈学联Logo_圆.jpg}
+  \\[4em]
+}
+\date{\\最近更新日期: ~\\ \today}
+
+
+% ------------------------------------------------------------
+% 正文
+% ------------------------------------------------------------
+\begin{document}
+
+% 控制目录仅显示到 subsection 层级（即显示 \section 和 \subsection）
+\setcounter{tocdepth}{2}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% ------------------------------------------------------------
+% 章节引用（按需启用）
+% ------------------------------------------------------------
+\input{chapters/preface}            % 序言
+\input{chapters/before_departure}   % 行前准备
+\input{chapters/visa_permit}        % DK 签证与居留许可
+\input{chapters/housing}            % 租房信息 & 宿舍介绍
+\input{chapters/academic}           % 学业信息
+\input{chapters/danish}             % DK 丹麦语学习
+\input{chapters/life_guide}         % 生活 / 交通 / 购物指南
+\input{chapters/job_internship}     % 打工 & 求职实习
+\input{chapters/social_fun}         % 社交与活动 & 娱乐
+\input{chapters/safety_fraud}       % 安全与反诈
+\input{chapters/faq}                % 常见问题 FAQ
+\input{chapters/wechat_groups}      % 各种微信群
+\input{chapters/changelog}          % 更新日志 & 贡献者名单
+
+\end{document}
