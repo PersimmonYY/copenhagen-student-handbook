@@ -1,7 +1,7 @@
 # 关键事实来源维护台账
 
 > 维护对象：从中国赴丹麦的非欧盟高等教育学生  
-> 最近复核：2026-09-02  
+> 最近复核：2026-09-03  
 > 用法：发布前打开原始页面核对，不以搜索摘要或往年截图代替正文；金额类项目每年 1 月复核，应急电话和交通状态每次发布复核。
 
 | Claim ID | 主题/易变字段 | 正文位置 | 官方来源 | 最近核验 | 下次复核 |
@@ -23,6 +23,13 @@
 | DK-CUSTOMS-TRAVEL | 现金、贵重物品与非欧盟入境海关 | `before_departure.tex` | <https://toldst.dk/en-us/individuals/travel> | 2026-09-02 | 每次发布 |
 | DK-FOOD-IMPORT | 从非欧盟地区个人携带食品 | `before_departure.tex` | <https://foedevarestyrelsen.dk/kost-og-foedevarer/alt-om-mad/privat-indfoersel> | 2026-09-02 | 每次发布 |
 | DK-INSURANCE | 家财、个人责任等私人保险概览 | `life_guide.tex` | <https://lifeindenmark.borger.dk/money-and-tax/insurance> | 2026-09-02 | 每年或政策变更 |
+| TRANSIT-APPEAL | 公交、火车和地铁争议的两级申诉路径 | `life_guide.tex` | <https://www.abtm.dk/english> | 2026-09-03 | 每次发布 |
+| MITID-USER-ID | MitID User ID 查看、遗忘和恢复方式 | `life_guide.tex` | <https://www.mitid.dk/en-gb/help/help-universe/mitid-user/> | 2026-09-03 | 每次发布 |
+| CPH-MOVE-ABROAD | 哥本哈根迁出申报时间和入口 | `residence_lifecycle.tex` | <https://international.kk.dk/live/housing/moving-to-a-new-place/moving-abroad> | 2026-09-03 | 每次发布 |
+| DK-PANT | Pant A/B/C 金额和包装退回方式 | `life_guide.tex` | <https://danskretursystem.dk/en/about-deposits/where-return/> | 2026-09-03 | 每年或政策变更 |
+| DK-HEALTH-MEMBER | Sygeforsikringen ``danmark'' 加入条件 | `life_guide.tex` | <https://www.sygeforsikring.dk/membership> | 2026-09-03 | 每年或政策变更 |
+| DK-VITAMIN-D | 丹麦冬半年维生素 D 官方建议 | `life_guide.tex` | <https://www.sst.dk/vidensbase/forebyggelse/ernaering-mad-og-maaltider/tilskud-af-d-vitamin-og-calcium> | 2026-09-03 | 每年或政策变更 |
+| DK-STUDENT-COUNSELLING | 高等教育学生咨询支持入口 | `life_guide.tex` | <https://srg.dk/english/the-student-counselling-service/> | 2026-09-03 | 每年或政策变更 |
 
 ## 发布前固定动作
 
