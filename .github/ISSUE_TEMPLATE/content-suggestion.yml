@@ -1,0 +1,49 @@
+name: 内容补充建议
+description: 建议新增章节、流程、经验提示或常见问题
+title: "[内容建议] "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: 建议主题
+      placeholder: 例如：首次在丹麦配眼镜的流程
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: 为什么对中国籍非欧盟学生有帮助
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: 建议写入的内容
+      description: 可列出关键步骤、注意事项和适用条件。
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方或一手来源（如适用）
+      placeholder: https://...
+  - type: dropdown
+    id: evidence_type
+    attributes:
+      label: 内容性质
+      options:
+        - 有官方来源支持的事实或流程
+        - 学校或服务机构的一手信息
+        - 个人经验，仅供参考
+        - 尚不确定，希望维护者协助核验
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私与版权
+      options:
+        - label: 内容不包含未经同意的个人信息，也未复制未授权的帖子、截图或图片
+          required: true

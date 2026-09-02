@@ -1,0 +1,51 @@
+name: 事实或链接纠错
+description: 报告政策、金额、期限、资格或官方链接问题
+title: "[事实核验] "
+labels:
+  - fact-check
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 位置
+      description: 请填写章节、页码或文件路径。
+      placeholder: 例如：第 9 章交通 / chapters/life_guide.tex
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前内容及问题
+      description: 请说明现有表述为什么可能过期、不准确或不适用。
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 建议修改
+      description: 如有明确的新表述，请写在这里。
+  - type: input
+    id: source
+    attributes:
+      label: 官方或一手来源
+      description: 请提供可直接打开的原始页面，不要只贴搜索结果或社交平台帖子。
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: 核验日期
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: 影响程度
+      options:
+        - 可能影响身份、金钱、健康或安全
+        - 会造成办理困难，但有替代路径
+        - 一般性文字或链接问题
+    validations:
+      required: true
