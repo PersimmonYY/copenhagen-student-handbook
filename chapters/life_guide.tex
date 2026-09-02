@@ -167,55 +167,85 @@ NemKonto 是本人已有账户中被指定用于接收丹麦公共机构付款�
 %============================================================
 % 8. 医疗 & 保险
 %============================================================
-\section{医疗 \& 保险}
+\section{医疗、保险与紧急情况}\label{sec:health}
 
-\subsection{哥本哈根公共医疗简要说明}
-加入丹麦国家医疗保险后会获得\textbf{黄卡（Sundhedskort）}，它是享受相应公共医疗服务的资格凭证，并显示 CPR、住址及家庭医生等信息。家庭医生、急诊和公立医院的大多数检查与治疗免费；牙科、处方药和部分心理治疗通常需要自付或仅获部分补贴。
+本节默认读者已从中国抵丹并准备长期居住。\textbf{CPR、黄卡和学生居留许可是三件不同的事}：完成 CPR 登记并进入丹麦国家医疗保险后，才会获分配家庭医生并收到黄卡；居留许可或旅行保险本身不等于已经进入国家医疗保险。CPR 尚未完成时，应先使用学校或本人购买的过渡保险，并向保险方确认垫付、报销和转诊规则。
 
-\subsubsection{非紧急情况}
-\begin{enumerate}
-  \item 家庭医生 (\textbf{GP})：慢性病、感冒等  
-  \item 专科：GP 转介后就诊（耳鼻喉科可直挂）  
-  \item 夜间急诊：拨 \textbf{1813}
-\end{enumerate}
+\subsection{先判断走哪条就医路径}
 
-\subsubsection{紧急情况}
-\textbf{112} — 生命危险立即呼救。任何生命危险或重大创伤（心脏骤停、严重交通事故等）直接 112。
+\small
+\rowcolors{2}{gray!10}{white}
+\begin{longtable}{p{0.22\linewidth}p{0.35\linewidth}p{0.35\linewidth}}
+  \toprule
+  \textbf{情况} & \textbf{行动} & \textbf{注意} \\
+  \midrule
+  \endfirsthead
+  \toprule
+  \textbf{情况} & \textbf{行动} & \textbf{注意} \\
+  \midrule
+  \endhead
+  \bottomrule
+  \endfoot
+  生命危险或重大创伤 & 立即拨 \textbf{112} & 清楚说明地点、症状和回拨号码；不要自行前往普通门诊等待 \\
+  首都大区 GP 关门后的急病或受伤 & 拨 \textbf{1813}，由医护人员分流 & 通常应先来电再去急诊；国际号码或 1813 无法接通可拨 +45 38 69 89 00 \\
+  白天非紧急疾病、续方、慢性病 & 联系黄卡所列家庭医生（GP） & GP 决定是否开处方、检查或转诊；不要直接把国内处方拿到药房要求配药 \\
+  牙痛、眼镜或一般心理咨询 & 联系相应服务或先问 GP/学校咨询中心 & 牙科、眼镜和部分心理服务常需自付；预约前问清价格、转诊和补贴 \\
+  CPR 尚未登记 & 先联系保险方、学校或 1813 获取分流建议 & 非紧急治疗是否报销取决于过渡保险；生命危险仍拨 112 \\
+\end{longtable}
+\normalsize
 
-\subsubsection{心理辅导}\label{sec:mental-emergency}
+首都大区 1813 由医生和护士提供分流；工作日自己的 GP 开门时，普通问题应先联系 GP。心理危机同样可拨 1813 并选择精神科帮助；若本人或他人有立即生命危险，拨 112。精神科急诊点和联系方式会调整，不在本手册保留容易过期的地址表，以首都大区实时页面为准。
 
-\begin{table}[htbp]
-  \small
-  \rowcolors{2}{gray!10}{white}
-  \centering
-  \setlength{\tabcolsep}{6pt}
-  %\caption{}
-  \begin{tabularx}{\textwidth}{X l}
-    \toprule
-    \textbf{哥本哈根 24h 心理急诊地址} & \textbf{热线} \\
-    \midrule
-    Digevej 110, 2300 København S                & 38 64 16 50 \\
-    Maglevænget 2, 2750 Ballerup                 & 38 64 50 03 \\
-    Esther Ammundsens Vej 36A, 2400 København NV & 38 64 73 60 \\
-    \bottomrule
-  \end{tabularx}
-\end{table}
+\subsection{黄卡覆盖什么、不覆盖什么}
 
-\begin{grayleftbox}\textbf{小贴士:}
-1813 覆盖整个首都大区，24 小时可拨打。工作日 08 – 16 点应优先联系自己的 GP；其余时段（夜间、周末、节假日）或 GP 无法接通时，再拨 1813。
-\end{grayleftbox}
+国家医疗保险通常覆盖家庭医生、公立医院及经转诊的多数检查与治疗，但“有黄卡”不等于所有医疗支出为零：
 
-%------------ 就医 APP 表格 -----------------
-\subsection{就医 APP 介绍}
-\begin{itemize}
-  \item \textbf{Min læge} — 线上问诊、预约、查询记录
-  \item \textbf{Sundhedskortet} — 电子黄卡
-  \item \textbf{Min sundhed} — 查询记录、疫苗证明
+\begin{itemize}[leftmargin=2em,itemsep=3pt]
+  \item \textbf{通常由公共体系承担：}家庭医生问诊、公立医院和急诊体系中的多数必要治疗；是否需要 GP 转诊以具体专科规则为准。
+  \item \textbf{常见自付或部分补贴：}成人牙科、处方药、眼镜/隐形眼镜、部分物理治疗和心理治疗。预约前询问是否需要转诊、是否有公共补贴及本人预计自付额。
+  \item \textbf{境外旅行：}丹麦黄卡不是旅行保险，也不替代目的地要求的医疗和遣返保障。离开丹麦旅行前应另查蓝卡资格和私人旅行保险。
+  \item \textbf{私立服务：}私立医院、线上诊所或私人心理服务是否报销取决于本人保险条款；先取得书面确认再接受高额治疗。
 \end{itemize}
 
-\begin{grayleftbox}\textbf{常用药物小 Tips:}
-丹麦药品分为处方药和非处方药。抗生素及许多慢性病用药需要医生处方；部分止痛退烧药、感冒药和胃药可在药房（Apotek）或获许可的零售点非处方购买，但规格和购买数量可能受限。不要把国内处方或“中成药”视为可在丹麦直接配药的依据；不确定时请向药师或家庭医生咨询。
+黄卡通常在 CPR 登记后约 2--3 周寄到丹麦地址。卡未到但登记已完成时，可凭 CPR 联系已分配的 GP；信箱上应有与 CPR 登记一致的姓名或 c/o。
+
+\subsection{从中国携带慢性病药物}
+
+2026 年起，个人从非欧盟/欧洲经济区国家带药进入丹麦适用新的进口规则。普通药物须为本人使用且在购买地合法销售；抗生素从非欧盟/欧洲经济区入境时最多通常为 3 个月用量，且不得从该区域邮寄入境；含受控麻醉/精神作用成分的药物通常最多 30 天用量并须有本人处方证明。含兴奋剂、激素或其他可能被归为管制/兴奋剂成分的药物另有规则。
+
+\begin{grayleftbox}
+\textbf{出发前药物清单：}
+\begin{itemize}
+  \item 查清药品通用名、有效成分和剂量，保留原包装、购药凭证及医生出具的英文病情/用药说明。
+  \item 对 ADHD、阿片类止痛药、苯二氮卓类、部分抗癫痫药、激素、生长激素及抗生素，逐项在丹麦药品管理局页面核对数量和证明要求。
+  \item 不要把国内“可购买”理解为可在丹麦合法持有，也不要让亲友直接邮寄受控药物或抗生素。
+  \item 抵丹后尽早与 GP 建立续方和随访计划；丹麦医生可能需要重新评估，无法保证直接续开同品牌或同剂量。
+\end{itemize}
 \end{grayleftbox}
+
+\subsection{心理危机、暴力与事故}
+
+\begin{itemize}[leftmargin=2em,itemsep=3pt]
+  \item \textbf{心理危机：}首都大区拨 1813 选择精神科帮助；有自伤、他伤或其他立即危险时拨 112。也可联系学校 Student Counselling，但学校咨询不能替代急诊。
+  \item \textbf{遭受暴力或性侵害：}先到安全地点；需要立即警察/急救时拨 112，否则拨警方 114 获取报案和就医指引。尽量保留衣物、聊天、照片和时间线等证据；是否报警由当事人决定，但急救和支持不应延误。
+  \item \textbf{歧视或仇恨事件：}存在即时危险拨 112；非紧急事件可拨 114 或使用警方报案入口，并记录原话、时间、地点、证人和影像。若发生在校园，同时联系学校的安全、学生事务或平等事务渠道。
+  \item \textbf{失窃和事故：}人身安全优先；之后报警、联系保险并保存案件编号、收据和照片。具体操作见第~\ref{sec:safety_fraud}~节。
+\end{itemize}
+
+\subsection{就医数字工具与官方入口}
+
+\begin{itemize}[leftmargin=2em,itemsep=2pt]
+  \item \textbf{Min læge}：联系 GP、查看预约及可用功能；具体功能取决于诊所。
+  \item \textbf{Sundhedskortet}：电子黄卡；实体卡仍应妥善保管。
+  \item \textbf{MinSundhed / sundhed.dk}：查看部分健康记录、检查结果和转诊信息。
+  \item 黄卡与国家医疗保险：\url{https://lifeindenmark.borger.dk/healthcare/health-insurance/health-insurance-card}
+  \item 首都大区 1813：\url{https://www.regionh.dk/english/Healthcare-Services/Emergency-Medical-Services/Pages/Medical-Helpline-1813.aspx}
+  \item 首都大区精神科急诊：\url{https://www.regionh.dk/sundhed/akut/sider/psykiatri.aspx}
+  \item 丹麦药品管理局带药规则：\url{https://laegemiddelstyrelsen.dk/en/pharmacies/medicines-imported-from-abroad/}
+  \item 丹麦警方受害者信息：\url{https://politi.dk/en/report-a-crime/information-for-victims-of-crime}
+\end{itemize}
+
+\noindent\textit{本节官方信息核验日期：2026 年 9 月 2 日。}
 
 
 
