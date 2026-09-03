@@ -1,4 +1,0 @@
-interface:
-  display_name: "哥哈留学手册维护助手"
-  short_description: "审核手册来源时效版权适用身份与内部发布准备状态"
-  default_prompt: "使用 $copenhagen-handbook-maintainer 审核这次改动的来源、时效、版权边界和发布风险。"

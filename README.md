@@ -24,23 +24,7 @@ SOURCE_REGISTER.md       易变事实与官方来源维护台账
 UPGRADE_PLAN.md          版本计划及完成情况
 COMMENT_INTEGRATION.md   共建批注处理记录
 SOCIAL_CONTENT_POLICY.md 社交平台材料的核验和版权规则
-PLUGIN_DESIGN.md          哥哈留学助手插件设计和阶段计划
-plugins/                  本地 Codex 插件与五个专项 skills
 ```
-
-## 哥哈留学助手插件（MVP）
-
-仓库包含 `plugins/copenhagen-chinese-student-guide/`，将手册内容按落地、日常生活、求职和内部维护分为可按需调用的 skills。插件默认服务于来自中国的非欧盟高等教育学生；涉及居留、工作权限、税务、福利、医疗、合同、金额、期限和联系方式时，必须重新打开官方原始页面核验。
-
-当前插件仍处于本地 MVP 和内部审核阶段，尚未建立公开 marketplace，也没有引入 Jobnet、Jobindex 或 Rejseplanen 的第三方实现。结构、边界和后续计划见 [PLUGIN_DESIGN.md](PLUGIN_DESIGN.md)。
-
-从仓库根目录运行离线结构审计：
-
-```powershell
-python plugins/copenhagen-chinese-student-guide/scripts/audit_handbook.py .
-```
-
-该脚本只检查来源台账、章节引用和核验日期结构，不能代替人工打开官方网页复核。
 
 ## 如何参与检查
 

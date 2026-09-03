@@ -10,3 +10,8 @@ tmp/
 __pycache__/
 *.py[cod]
 *.xdv
+
+# Local Codex skill/plugin development (not part of the handbook repository)
+/plugins/
+/tests/skill-evaluation/
+/PLUGIN_DESIGN.md

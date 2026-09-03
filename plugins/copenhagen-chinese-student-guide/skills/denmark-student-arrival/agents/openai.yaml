@@ -1,4 +1,0 @@
-interface:
-  display_name: "丹麦留学生落地助手"
-  short_description: "为中国非欧盟学生生成行前与抵丹后手续时间线清单"
-  default_prompt: "使用 $denmark-student-arrival，根据我的抵丹时间和手续进度生成下一步办理计划。"
