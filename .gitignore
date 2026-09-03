@@ -7,3 +7,4 @@
 *.toc
 main.pdf
 tmp/
+*.xdv
