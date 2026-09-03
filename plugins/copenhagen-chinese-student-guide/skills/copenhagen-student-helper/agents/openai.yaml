@@ -1,0 +1,4 @@
+interface:
+  display_name: "哥哈留学助手"
+  short_description: "为中国非欧盟学生分流哥本哈根落地生活与求职问题"
+  default_prompt: "使用 $copenhagen-student-helper，根据我的身份和当前阶段判断下一步最应该处理什么。"

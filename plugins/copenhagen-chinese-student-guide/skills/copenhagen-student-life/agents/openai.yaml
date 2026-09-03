@@ -1,0 +1,4 @@
+interface:
+  display_name: "哥本哈根学生生活助手"
+  short_description: "为中国非欧盟学生处理哥本哈根衣食住行与生活风险"
+  default_prompt: "使用 $copenhagen-student-life 帮我解决这个生活问题，并区分官方规则与个人经验。"
