@@ -9,3 +9,4 @@ main.pdf
 tmp/
 __pycache__/
 *.py[cod]
+*.xdv

@@ -17,7 +17,7 @@
 | POLICE-114 | 非紧急警务 +45 114 | `safety_fraud.tex` | <https://politi.dk/en/about-the-police/contact-the-police/service-114> | 2026-09-02 | 每次发布 |
 | CN-EMBASSY-DK | 领事保护 +45 39 46 08 66 | `safety_fraud.tex` | <https://dk.china-embassy.gov.cn/lsfw/202507/t20250710_11668362.htm> | 2026-09-02 | 每次发布 |
 | REJSEKORT-CLOSE | 实体 Rejsekort 2026-06-30 停用及替代方案 | `life_guide.tex` | <https://www.rejsekort.dk/da/luk/vigtige-datoer/vigtige-datoer> | 2026-09-02 | 每次发布 |
-| DK-LANGUAGE-DEPOSIT | S-kursist 2,000 DKK 模块押金 | `danish.tex` | <https://danskogproever.dk/borger/gratis-danskuddannelse/danskuddannelser/> | 2026-09-02 | 每年或政策变更 |
+| DK-LANGUAGE-DEPOSIT | S-kursist 2,000 DKK 模块押金及 I-kursist、au pair 例外 | `danish.tex` | <https://danskogproever.dk/borger/gratis-danskuddannelse/danskuddannelser/>；<https://www.retsinformation.dk/eli/lta/2024/1760> | 2026-09-03 | 每年或政策变更 |
 | DK-RENT-DEPOSIT | 私人租赁押金/预付租金上限 | `housing.tex` | <https://www.sm.dk/arbejdsomraader/byggeri-og-boliglovgivning/private-lejeboliger/depositum-og-forudbetalt-leje> | 2026-09-02 | 每次发布 |
 | DK-MEDICINE-IMPORT | 非欧盟地区携药规则 | `life_guide.tex` | <https://laegemiddelstyrelsen.dk/en/pharmacies/medicines-imported-from-abroad/> | 2026-09-02 | 每次发布 |
 | DK-CUSTOMS-TRAVEL | 现金、贵重物品与非欧盟入境海关 | `before_departure.tex` | <https://toldst.dk/en-us/individuals/travel> | 2026-09-02 | 每次发布 |
